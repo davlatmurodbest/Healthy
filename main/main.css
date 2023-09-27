@@ -1,0 +1,574 @@
+@font-face {
+    font-family: 'Sofia Sans Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/sofia-sans-semi-condensed-v4-latin/sofia-sans-semi-condensed-v4-latin-regular.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'Sofia Sans Semi Condensed';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/sofia-sans-semi-condensed-v4-latin/sofia-sans-semi-condensed-v4-latin-500.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'Sofia Sans Semi Condensed';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/sofia-sans-semi-condensed-v4-latin/sofia-sans-semi-condensed-v4-latin-800 woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Noto Sans Nag Mundari';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/sofia-sans-semi-condensed-v4-latin/noto-sans-nag-mundari-v1-latin-700.woff2') format('woff2');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1360px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    margin-top: 20px;
+}
+
+.link-box {
+    margin-left: -250px;
+}
+
+.box-link {
+    color: #2C3847;
+    font-family: 'Sofia Pro';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.8;
+    padding-left: 40px;
+    text-decoration: none;
+}
+
+.box-link:hover {
+    color: #5FB848;
+    font-family: 'Sofia Pro';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: wavy;
+}
+
+.header-but {
+    border: none;
+    background: none;
+    padding-right: 20px;
+}
+
+.order-link {
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: 'Sofia Pro';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 27px;
+    background: #494949;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-h1 {
+    color: var(--black, #181D19);
+    font-family: 'Noto Sans Nag Mundari';
+    font-size: 76px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hero-p {
+    color: var(--black, #181D19);
+    font-family: 'Noto Sans Nag Mundari';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    padding-bottom: 50px;
+}
+
+.GREEN {
+    border-radius: 50px;
+    background: var(--green-gradient, linear-gradient(180deg, #64BB47 0%, #2C9553 100%));
+}
+
+.about-h2 {
+    color: #151414;
+    text-align: center;
+    font-family: 'Noto Sans Nag Mundari';
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about-p {
+    color: #3B433E;
+    text-align: center;
+    font-family: 'Noto Sans Nag Mundari';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 62px;
+}
+
+.about-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    margin-bottom: 40px;
+}
+
+.about-item {
+    width: 350px;
+    list-style: none;
+}
+
+.about-icon {
+    margin-left: 70px;
+}
+
+.about-h3 {
+    color: var(--black, #181D19);
+    text-align: center;
+    font-family: 'Noto Sans Nag Mundari';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 770;
+    line-height: normal;
+    width: 250px;
+}
+
+.about-text {
+    text-align: center;
+    font-family: 'Noto Sans Nag Mundari';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: 28px;
+    width: 300px;
+    text-align: center;
+}
+
+.about-ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 150;
+    margin-bottom: 120px;
+}
+
+.about-li {
+    list-style: none;
+}
+
+.about-h4 {
+    color: #000;
+    text-align: center;
+    font-family: 'Noto Sans Nag Mundari';
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 780;
+    line-height: normal;
+    margin: 0;
+}
+
+.about-me {
+    color: #545454;
+    text-align: center;
+    font-family: 'Noto Sans Nag Mundari';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 760;
+    line-height: normal;
+}
+
+.hot .container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.hot-h4 {
+    color: #151414;
+    font-family: 'Noto Sans Nag Mundari';
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.hot-p {
+    color: var(--black, #181D19);
+    font-family: 'Sofia Sans Semi Condensed';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    width: 500px;
+    padding-bottom: 84px;
+}
+
+.hot-imgs {
+    margin-top: -20px;
+}
+
+.hot-pic {
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+.hot-png {
+    margin-top: 80px;
+}
+
+.fresh .container {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.fresh-info {
+    margin-left: 71px;
+}
+
+.fresh-h4 {
+    color: #151414;
+    font-family: 'Sofia Sans Semi Condensed';
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 428px;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.fresh-p {
+    color: var(--black, #181D19);
+    font-family: 'Sofia Sans Semi Condensed';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: 34px;
+    width: 514px;
+    padding-bottom: 50px;
+}
+
+.cool .container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 177px;
+}
+
+.all {
+    display: flex;
+}
+
+.cool-p {
+    padding-left: 30px;
+    color: var(--black, #181D19);
+    font-family: 'Sofia Sans Semi Condensed';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: normal;
+}
+
+.cool-icon {
+    transform: translate(0px, 20px);
+}
+
+.book-h5 {
+    color: #151414;
+    text-align: center;
+    font-family: 'Sofia Sans Semi Condensed';
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.book-p {
+    color: #3B433E;
+    text-align: center;
+    font-family: 'Sofia Sans Semi Condensed';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+    padding-bottom: 60px;
+}
+
+.book-ul {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.book-li {
+    width: 356px;
+    border-radius: 20px;
+    border: 1px solid #EBEBEB;
+    background: #FFF;
+    list-style: none;
+    margin-left: 51px;
+}
+
+.book-pic {
+    margin-left: 53px;
+    margin-top: 50px;
+    padding-bottom: 27px;
+}
+
+.li-h5 {
+    color: var(--black, #181D19);
+    text-align: center;
+    font-family: 'Sofia Sans Semi Condensed';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.li-p {
+    text-align: center;
+    font-family: 'Sofia Sans Semi Condensed';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    width: 250px;
+    margin-left: 50px;
+    padding-bottom: 51px;
+}
+
+.raund {
+    margin-left: 600px;
+    margin-bottom: 190px;
+}
+
+.happy {
+    margin-bottom: 190px;
+}
+
+.happy-h6 {
+    color: #151414;
+    text-align: center;
+    font-family: 'Sofia Sans Semi Condensed';
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.happy-ul {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.happy-li {
+    width: 514px;
+    filter: drop-shadow(3px 15px 35px rgba(120, 125, 173, 0.06));
+    border: 1px solid #EBEBEB;
+    background: #FFF;
+    list-style: none;
+    margin-left: 27px;
+}
+
+.happy-box {
+    display: flex;
+}
+
+.happy-pic {
+    margin-left: 25px;
+    margin-top: 40px;
+    margin-bottom: 32px;
+}
+
+.box-h6 {
+    color: var(--333333, #333);
+    font-family: 'Sofia Sans Semi Condensed';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 770;
+    line-height: normal;
+    margin: 0;
+    padding-top: 60px;
+    padding-left: 37px;
+    padding-bottom: 3px;
+}
+
+.box-span {
+    color: #888A9A;
+    font-family: 'Sofia Sans Semi Condensed';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 760;
+    line-height: normal;
+    padding-left: 37px;
+}
+
+.happy-p {
+    width: 452px;
+    padding-left: 27px;
+    color: var(--black, #181D19);
+    font-family: 'Sofia Sans Semi Condensed';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    padding-bottom: 64px;
+}
+
+.happy-icon {
+    transform: translate(530px, 0px);
+}
+
+.happy-photo {
+    transform: translate(550px, 0px);
+}
+
+.enter-h6 {
+    color: #151414;
+    text-align: center;
+    font-family: 'Sofia Sans Semi Condensed';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 770;
+    line-height: normal;
+    margin: 0;
+}
+
+.enter-p {
+    color: #3B433E;
+    text-align: center;
+    font-family: 'Sofia Sans Semi Condensed';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: normal;
+    padding-bottom: 60px;
+}
+
+.enter-put {
+    width: 330px;
+    height: 60px;
+    border-radius: 165px;
+    border: 1.5px solid #F5F5F5;
+    background: #FFF;
+    padding-left: 20px;
+    margin-left: 400px;
+}
+
+.enter-but {
+    width: 170px;
+    height: 60px;
+    border-radius: 50px;
+    background: var(--green-gradient, linear-gradient(180deg, #64BB47 0%, #2C9553 100%));
+    border: none;
+    margin-bottom: 150px;
+}
+
+.footer {
+    background: #FCFCFC;
+}
+
+.footer-list {
+    display: flex;
+    padding-top: 122px;
+    padding-bottom: 100px;
+}
+
+.footer-item {
+    list-style: none;
+}
+
+.footer-p {
+    color: var(--657582, #657582);
+    font-family: 'Sofia Sans Semi Condensed';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 262px;
+}
+
+.footer-li {
+    list-style: none;
+    margin-left: 150px;
+    margin-top: -50px;
+}
+
+.footer-h6 {
+    color: var(--Style, #2C3847);
+    font-family: 'Sofia Sans Semi Condensed';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 770;
+    line-height: normal;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+.footer-link {
+    color: var(--657582, #657582);
+    font-family: 'Sofia Sans Semi Condensed';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 760;
+    line-height: normal;
+    text-decoration: none;
+    display: grid;
+}
+
+.hello {
+    background: var(--green-gradient, linear-gradient(180deg, #64BB47 0%, #2C9553 100%));
+}
+
+.hello-h6 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Sofia Sans Semi Condensed';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 760;
+    line-height: normal;
+    padding: 20px 0px;
+}
